@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="matchDetail.css">
+
+    <script src="women%201m%20springboard.js"></script>
+    <script src="women%203m%20springboard.js"></script>
+    <script src="women%203m%20synchronised.js"></script>
+    <script src="women%2010m%20platform.js"></script>
+    <script src="women%2010m%20synchronised.js"></script>
+    <script src="men%201m%20springboard.js"></script>
+    <script src="men%203m%20springboard.js"></script>
+    <script src="men%203m%20synchronised.js"></script>
+    <script src="men%2010m%20platform.js"></script>
+    <script src="men%2010m%20synchronised.js"></script>
+    <script src="matchDetail.js"></script>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif;">
+    <nav style="display: flex;
+    justify-content: center;
+    margin-bottom: 20px;">
+        <ul style="list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;">
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../playerRank/playRank.html">选手排行</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../Schedule/schedule.html">每日赛况</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;
+            background-color: #00aaff;"><a href="../matchDetail/matchDetail.html">详细赛况</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../medalTable/medalTable.html">奖牌榜</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../LearningMore/information.html">了解更多</a></li>
+        </ul>
+    </nav>
+    <div height="300px">
+        <div style="position: absolute;left: 50%;top: 30%;transform: translate(-50%, -50%);"><img src="../data/logo.png" style="height: 200px; width: 200px"></div>
+        <div style="height: 150px;width: 100%;background-color: white"></div>
+        <div style="height: 150px;width: 100%;background-color: lightskyblue"></div>
+
+    </div>
+    <h1 style=" text-align: center;
+    margin-bottom: 50px;">WORLD <span style="color: aqua; ">AQUATICS</span></h1>
+</div>
+<h1 class="h1">详细赛况</h1>
+<div style="display: flex;
+    justify-content: center;
+    margin-bottom: 20px;">
+    <button id="Final" onclick="changeToFianl()">Final</button>
+    <button id="Semifinal" onclick="changeToSemifinal()">Semifinal</button>
+    <button id="Preliminary" onclick="changeToPreliminary()">Preliminary</button>
+
+</div>
+<div>
+    <div class="game">
+        <details id="women 1m springboard1">
+            <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">women 1m springboard</span>
+            </span></summary>
+            <div>
+                <table id="women 1m springboard">
+
+                </table>
+            </div>
+        </details>
+        <details id="women 3m springboard1">
+            <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">women 3m springboard</span>
+            </span></summary>
+            <div>
+                <table id="women 3m springboard">
+
+                </table>
+            </div>
+        </details><details id="women 10m platform1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">women 10m platform</span>
+            </span></summary>
+        <div>
+            <table id="women 10m platform">
+
+            </table>
+        </div>
+    </details><details id="women 3m synchronised1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">women 3m synchronised</span>
+            </span></summary>
+        <div>
+            <table id="women 3m synchronised">
+
+            </table>
+        </div>
+    </details><details id="women 10m synchronised1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">women 10m synchronised</span>
+            </span></summary>
+        <div>
+            <table id="women 10m synchronised">
+
+            </table>
+        </div>
+    </details><details id="men 1m springboard1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">men 1m springboard</span>
+            </span></summary>
+        <div>
+            <table id="men 1m springboard">
+
+            </table>
+        </div>
+    </details><details id="men 3m springboard1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">men 3m springboard</span>
+            </span></summary>
+        <div>
+            <table id="men 3m springboard">
+
+            </table>
+        </div>
+    </details><details id="men 10m platform1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">men 10m platform</span>
+            </span></summary>
+        <div>
+            <table id="men 10m platform">
+
+            </table>
+        </div>
+    </details><details id="men 3m synchronised1">
+        <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">men 3m synchronised</span>
+            </span></summary>
+        <div>
+            <table id="men 3m synchronised">
+
+            </table>
+        </div>
+    </details>
+        <details id="men 10m synchronised1">
+            <summary><span>
+                <img class="swimpng" src="../data/swim.png">
+                <span class="gamename">men 10m synchronised</span>
+            </span></summary>
+            <div>
+                <table id="men 10m synchronised">
+
+                </table>
+            </div>
+        </details>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li,h1,h2,h3,p{ padding:0; margin:0; list-style:none}
+a{ text-decoration:none; color:#000}
+
+.bodies{background:url(img.png) no-repeat #0450ad  center top;width:1000px; margin:0 auto; line-height:21px}
+.clear{ clear:both}
+.menu li{ list-style:none}
+.logo{ position:absolute; top:50px; width:250px; height:100px; margin-left:40px}
+.banner{ position:relative; height:450px}
+
+.menu{ width:100%; text-align:center; float:left; background:#86b4e8}
+.menu li a{ display:block; color:#fff}
+.menu li { float:left; margin:1px; background: rgba(3, 200, 184, 0.91); padding:15px 30px ; width:21%}
+
+.right{ float:right; width:660px; padding:20px}
+.left{ min-height:300px; float:left; width:260px; padding:20px}
+.content{ background: #115c48; font-size:14px; padding-bottom:30px; display:inline-block ; color:#fff; width:100%}
+
+.end{ clear:both; background: rgba(3, 170, 200, 0.81); color:#fff; padding:30px 0; text-align:center;}
+.produce img{  margin:0 20px 20px 0}
+.produce { line-height:30px}
+.pad{ padding:20px; display:block}
+.pics p{ margin:1px; text-align:center}
+
+.imglist{ width:840px; margin:0 auto}
+.imglist li{ float:left; width:400px; margin:10px ; text-align:center}
+.scrollleft{ margin:0 30px}.scrollleft li{ float:left}
+.news li{ padding:5px;}
+.vd{ background: #00adcc; margin:20px; color:#fff; padding:20px; text-align:center}
+.vd img{ vertical-align:middle}
+.vd a{ font-size:24px; color:#fff}
+.title{ text-align:center; color:#F00; padding:10px}
+.fl{ float:left}
+.js  div{ width:100%; clear:both; margin-bottom:20px; float:left}
+
+.js div img{ float:left; margin-right:20px}
+.msg>div{ padding:10px}
+
+.bar{ margin:20px; clear:both; font-size:20px; color:#FF6600; font-weight:bold; padding:5px}
+
+ul a {
+    text-decoration: none; /* 去掉下划线 */
+}
+
+li:hover{
+    background-color: #00aaff;
+}
+li{
+    list-style-type: none;
+    position: inherit;
+    margin-right: 20px;
+    border-radius: 5px
+}

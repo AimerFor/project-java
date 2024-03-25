@@ -1,0 +1,49 @@
+.h1{
+    color: blue;
+}
+button{
+    background-color:deepskyblue;
+    color:black;
+    width: 200px;
+    height: 45px;
+    border:0;
+    font-size: 16px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+.game{
+    left: 20px;
+}
+.swimpng{
+    height: 40px;
+    width: 40px;
+}
+.gamename{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+th{
+    height: 30px;
+}
+td{
+    height: 40px;
+}
+
+ul a {
+    text-decoration: none; /* 去掉下划线 */
+}
+
+li:hover{
+    background-color: #00aaff;
+}
+li{
+    list-style-type: none;
+    position: inherit;
+    margin-right: 20px;
+    border-radius: 5px
+}

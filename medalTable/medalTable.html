@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="medalTable.css">
+    <script src="medalData.js"></script>
+    <script src="medalTable.js"></script>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif;">
+    <nav style="display: flex;
+    justify-content: center;
+    margin-bottom: 20px;">
+        <ul style="list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;">
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../playerRank/playRank.html">选手排行</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../Schedule/schedule.html">每日赛况</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../matchDetail/matchDetail.html">详细赛况</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;
+            background-color: #00aaff;"><a href="../medalTable/medalTable.html">奖牌榜</a></li>
+            <li style="padding: 5px 10px;
+            border: 2px solid transparent;"><a href="../LearningMore/information.html">了解更多</a></li>
+        </ul>
+    </nav>
+    <div height="300px">
+        <div style="position: absolute;left: 50%;top: 30%;transform: translate(-50%, -50%);"><img src="../data/logo.png" style="height: 200px; width: 200px"></div>
+        <div style="height: 150px;width: 100%;background-color: white"></div>
+        <div style="height: 150px;width: 100%;background-color: lightskyblue"></div>
+
+    </div>
+    <h1 style=" text-align: center;
+    margin-bottom: 50px;">WORLD <span style="color: aqua; ">AQUATICS</span></h1>
+</div>
+<h1 class="h1">奖牌榜</h1>
+<div>
+    <table id="medaltable">
+        <tr>
+            <th>Overall Rank</th>
+            <th>Country</th>
+            <th id="gold">Gold</th>
+            <th id="silver">Silver</th>
+            <th id="bronze">Bronze</th>
+            <th>Total</th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

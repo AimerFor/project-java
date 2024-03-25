@@ -1,0 +1,41 @@
+.h1{
+    color: blue;
+}
+.game{
+    left: 20px;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+th{
+    height: 30px;
+}
+td{
+    height: 40px;
+}
+.gold{
+    background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+.bronze{
+    background-color: darkorange;
+}
+
+ul a {
+    text-decoration: none; /* 去掉下划线 */
+}
+
+li:hover{
+    background-color: #00aaff;
+}
+li{
+    list-style-type: none;
+    position: inherit;
+    margin-right: 20px;
+    border-radius: 5px
+}

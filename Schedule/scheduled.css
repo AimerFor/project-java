@@ -1,0 +1,25 @@
+.h1{
+    color: blue;
+}
+.game{
+    left: 20px;
+}
+.swimpng{
+    height: 40px;
+    width: 40px;
+}
+.gamename{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+th{
+    height: 30px;
+}
+td{
+    height: 40px;
+}
